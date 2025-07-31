@@ -3,6 +3,6 @@ sidebar_position: 1
 slug: /
 ---
 
-# Introduction
+# How this Course Works
 
-Let's discover **Arduino**!
+This course. 
