@@ -9,11 +9,27 @@ When I tried learning Arduino, it was an overwhelming and daunting experience. U
 
 The aim of this course is to provide a roadmap for the aspiring hobbyist to become familiar with the world of Arduino. By the end of the course, you will be able to play around with an assortment of modules that include sensors, actuators and displays to build cool, unique, and valuable projects. 
 
+![Arduino microcontroller](arduino-intro.jpg)
+
 ## Curriculum
 
 Each week’s module involves lessons on software (programming), followed by lessons on hardware. Rather than hand holding you through the course’s content, I will provide links to documentation, datasheets, and other useful websites for you to explore and learn. 
 
 Each lesson will have an introduction to the topic, followed by a lesson which can be followed. Lastly, each lesson will be coupled with an assignment: a problems, challenges, and questions to apply the knowledge you have learned.
+
+## Software
+
+To follow along with this course, you will need to download the Arduino IDE to program your microcontroller and upload code examples that are provided. [Click here to download the IDE.](https://www.arduino.cc/en/software/)
+
+## Hardware
+
+To really involve yourself with the lessons, and truly experience what the Arduino has to offer, I would recommend purchasing an Arduino kit which contains many of the sensors, input and output devices we will come across in this course. Some kits that are recommended include:
+- [Official Arduino Start Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
+- [ELEGOO's Super Starter Kit](https://us.elegoo.com/products/elegoo-uno-r3-super-starter-kit)
+
+Alternatively, if you are on a budget, there are many *free-to-use* Arduino simulators that are great to work with. Check out:
+- [Tinkercad](https://www.tinkercad.com/circuits)
+- [Wokwi](https://wokwi.com/)
 
 ## Mindset
 
