@@ -14,8 +14,8 @@ A computer is a general purpose device that performs multiple functions whilst a
 
 If you purchased an Arduino kit as advised in the [Introduction](intro.md/hardware), grab your Arduino Uno R3 and let's understand the structure of your microcontroller. 
 
-![Arduino microcontroller structure](img/arduino-structure.png)
-
+<div class="img-center">![Arduino microcontroller structure](img/arduino-structure.png) </div>
+<br></br>
 1. USB connector
     - A port used to power your Arduino and/or upload code.
 2. Reset button

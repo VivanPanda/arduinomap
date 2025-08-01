@@ -43,7 +43,7 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
   digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
+  delay(1000);                      // wait for a second 
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
   delay(1000);                      // wait for a second
 }
@@ -51,8 +51,8 @@ void loop() {
 
 Now, plug in your Arduino board into your computer using the USB lead and select your microcontroller to establish a connection. 
 
-![Verify and upload](img/verify-upload.png)
-
+<div class="img-center">![Verify and upload](img/verify-upload.png) </div>
+<br></br>
 Notice you have two buttons in your IDE:
 - `Verify` - Tells the IDE to check the code for syntax errors, compiles the sketch into machine code (binary), and reports any errors in the console.
 - `Upload` - Performs the `Verify` step, followed by sending the binary code to the Arduino board. 
@@ -63,4 +63,70 @@ The `Verify` tool can be useful to check your syntax for any errors without havi
 
 Click on the `Upload` button to send your code over to your Arduino board. Once the sketch has been uploaded, you should see the yellow on-board LED start to blink. Congratulations!
 
-## Variables, comments and operators
+## Variables
+
+### Defining variables
+
+```cpp
+variable_datatype variable_name;
+int myNum;
+```
+
+### Assigning a value to a variable
+
+```cpp
+variable_name = value;
+myNum = 10;
+```
+
+[This article](https://learn.sparkfun.com/tutorials/data-types-in-arduino/defining-data-types) showcases some of the commonly used datatypes. 
+
+## Comments
+
+```cpp
+// We can write comments using the two forward slashes
+// Comments are ignored by the compiler and allow us to make our programs more maintable and easier to understand
+```
+
+## Operators
+
+### Arithmetic operators
+
+| Operator | Symbol | 
+|---|---|
+| Addition | `+` | 
+| Subtraction | `-` | 
+| Multiplication | `*` | 
+| Division | `/` | 
+| Remainder | `%` | 
+
+### Comparison operators
+
+| Operator | Symbol | 
+|---|---|
+| Greater than | `>` | 
+| Less than | `<` | 
+| Greater than or equal to | `>=` | 
+| Less than or equal to | `<=` | 
+| Equal to | `==` |
+| Not equal to | `!=` |
+
+### Logical operators
+
+| Operator | Symbol | 
+|---|---|
+| OR | `\|\|` | 
+| AND | `&&` | 
+| NOT | `!` |   
+
+## Assignment 
+
+:::info Try It Yourself
+1. Remember the `Blink` example sketch from earlier? Re-open it, but this time, change the `delay` to 500 milliseconds. Use a variable to store this delay time and ensure you have meaningful comments where applicable. If stuck, read the [documentation for the `delay()` function here](https://docs.arduino.cc/language-reference/en/functions/time/delay/). 
+::: 
+
+## Next Steps
+
+This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
+
+- Check out [this great summary video on data types for variables.](https://www.youtube.com/watch?v=vyxsg4Fc6Vg)
