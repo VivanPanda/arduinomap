@@ -75,13 +75,6 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          
-          {
             href: 'https://github.com/vivanpanda/arduino-course',
             label: 'GitHub',
             position: 'right',
