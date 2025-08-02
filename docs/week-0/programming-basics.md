@@ -29,7 +29,8 @@ void loop() {
 
 We will use an example sketch to blink the on-board LED on your Arduino microcontroller. From the menu, open the `Blink` example as shown below. 
 
-![Selecting the blink sketch](img/blink.png)
+<div class="img-center">![Selecting the blink sketch](img/blink.png)</div>
+<br></br>
 
 You should be able to see this sketch:
 

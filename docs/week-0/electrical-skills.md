@@ -36,6 +36,9 @@ Ohm's Law is a fundamental law in electricity which describes the relationship b
 
 ## Understanding the breadboard
 
+<div class="img-center">![Breadboard anatomy](img/breadboard.png)</div>
+<br></br>
+
 ## Understanding schematics
 
 ### Symbols
