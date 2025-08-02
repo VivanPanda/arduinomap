@@ -8,16 +8,31 @@ Before we learn about connecting components to our Arduino, we need to be famili
 
 ## What is a circuit?
 
+In electronics, a circuit is a path which allows  charge to flow from a power source and back to the source, hence completing the loop.
 
-In electronics, a circuit is a path which allows electrical current to flow from a power source and back to the source, hence completing the loop. 
-Current, voltage, resistance
+### Voltage, current and resistance 
+
+But what is electricity? Electricity is the flow of electrical charge. The three basic principles of electricity - voltage (V or E), current (I), and resistance (R) - can be understood in reference to the charge. 
+- **Voltage** refers to the difference in charge between two points. This is why voltage is commonly referred to as **potential difference**.
+- **Current** is the rate of flow of charge.
+- **Resistance** is a measure of opposition to the flow of charge. 
+
 :::tip
-Water pipe analogy
+The water analogy is an effective way to understand these concepts.
+- Water flow represents current.
+- Water pressure represents voltage.
+- Any resistance to the flow of water represents resistance.
+
+Watch [this video](https://www.youtube.com/watch?v=XrSdHjUtPYc) to grasp this concept.
 :::
 
-## Ohm's Law
+### Ohm's Law
 
-V=IR
+Ohm's Law is a fundamental law in electricity which describes the relationship between voltage, current and resistance. This relationship can be expressed using the formula `V = IR`.
+
+:::tip
+[This is an excellent watch](https://www.youtube.com/watch?v=8jB6hDUqN0Y&t=204s) to understand Ohm's Law better.
+:::
 
 ## Understanding the breadboard
 
