@@ -30,52 +30,10 @@ Watch [this video](https://www.youtube.com/watch?v=XrSdHjUtPYc) to grasp this co
 
 Ohm's Law is a fundamental law in electricity which describes the relationship between voltage, current and resistance. This relationship can be expressed using the formula `V = IR`.
 
-## Understanding the breadboard
-
-<div class="img-center">![Breadboard anatomy](img/breadboard.png)</div>
-<br></br>
-
-- **Terminal strips** are horizontal rows across the breadboard which are electrically connected. 
-- **Power rails** are vertical columns that are found on the sides of the breadboard. The power rails allow us to have easy access to power and ground when building more complicated circuits. 
-    - The rail marked with red lines represents positive connections.
-    - The rail marked with blue/black lines represents ground connections.
-- The **center groove**, or ravine, runs down the center of the breadboard, and allows us to easily fit components which have two rows of pins. 
-
-:::tip 
-We can connect the power rails on either side of the breadboard. Ensure you don't mix up the positive and negative rails!
-
-<div class="img-center">![Breadboard rails linked](img/breadboard-rails.png)</div>
-<br></br>
-:::
-
-## Understanding schematics
-
-We must understand that there are two distinct representations of a circuit:
-
-<div class="img-center">![Schematic vs wiring diagram](img/schematic_wiring_diagram.png)</div>
-<br></br>
-
-- **Schematic** - a blueprint of your circuit which uses symbols to represent components. 
-- **Wiring diagram** - a wiring or breadboard diagram shows how to connect parts on a physical breadboard. 
-
-:::info Remember
-Engineers communicate using **schematics**, not wiring diagrams. 
-
-Often, in tutorials, wiring diagrams are provided to help beginners easily construct circuits. However, following a wiring diagram is like following a LEGO kit. It gets the job done, but it doesn't teach you how the circuit works.  
-:::
-
-Since we will be using schematics frequently, it's essential that we understand how to work with them.
-
-### Symbols
-
-### Translating a schematic to the breadboard
-
-## Using an LED
-
 ## Assignment 
 
 :::info Your Turn
-1. Make an LED blink to morse code of your name. 
+1. 
 ::: 
 
 ## Next Steps
