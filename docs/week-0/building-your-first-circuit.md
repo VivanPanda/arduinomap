@@ -40,6 +40,16 @@ This might seem complicated now, but it will make a lot more sense once we take 
 
 ## The LED
 
+A light emitting diode (LED) is a component that emits light when current passes through it. As the name implies, an LED is a diode, which means it only allows current to flow through it in one direction. [Watch this video](https://www.youtube.com/watch?v=9BDTtcRMxpA) if you want to understand how LEDs work.
+
+LEDs can burn out if too much current passes through them. To prevent this from happening, we generally connect a current-limiting resistor in series with our LED to limit the amount of current flowing through it.
+
+<!-- components required section
+understnaing polarity of led
+led and resistor schematic to breadboard wiring diagram. make ur connections
+digital pin + understanding digitalwrite()
+sketch using blink and uploading -->
+
 ## Assignment 
 
 :::info Your Turn
