@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Getting to know the Arduino."
+    "description": "Getting to know the basics of the Arduino. This section introduces you to the Arduino board, fundamentals of programming in the Arduino IDE and electrical skills."
   }
 }

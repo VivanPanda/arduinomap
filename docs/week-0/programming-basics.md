@@ -121,7 +121,7 @@ myNum = 10;
 
 ## Assignment 
 
-:::info Try It Yourself
+:::info Your Turn
 1. Remember the `Blink` example sketch from earlier? Re-open it, but this time, change the `delay` to 500 milliseconds. Use a variable to store this delay time and ensure you have meaningful comments where applicable. If stuck, read the [documentation for the `delay()` function here](https://docs.arduino.cc/language-reference/en/functions/time/delay/). 
 ::: 
 

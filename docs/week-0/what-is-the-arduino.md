@@ -34,7 +34,7 @@ If you purchased an Arduino kit as advised in the [Introduction](intro.md/hardwa
 
 ## Assignment 
 
-:::info Try It Yourself
+:::info Your Turn
 1. Explore the official documentation for your [Arduino Uno](https://docs.arduino.cc/hardware/uno-rev3/). We will visit the Arduino documentation regularly, so bookmarking [this page](https://docs.arduino.cc/) is advised. 
 2. The Uno is one of many microcontrollers made by the Arduino company. Go ahead and visit [this website](https://dronebotworkshop.com/meet-the-arduino-family/) to meet the Arduino family.
 ::: 
