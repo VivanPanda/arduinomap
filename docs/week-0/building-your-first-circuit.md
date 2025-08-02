@@ -68,10 +68,10 @@ Components required:
 - A handful of jumper wires
 - Your Arduino Uno
 
-:::tip[Try it yourself]
+:::info[Try it yourself]
 <Tabs>
   <TabItem value="problem" label="Problem">
-    This is the problem
+    This is the first of many `Try It Yourself` sections you will encounter throughout this course. These are mini-assignments for you to test the knowledge you have gathered previously. Ensure you only click on the `Solution` once you've tried to solve the `Problem` yourself.
   </TabItem>
   <TabItem value="solution" label="Solution">
     This is the solution
