@@ -44,16 +44,37 @@ A light emitting diode (LED) is a component that emits light when current passes
 
 LEDs can burn out if too much current passes through them. To prevent this from happening, we generally connect a current-limiting resistor in series with our LED to limit the amount of current flowing through it.
 
-<!-- components required section
-understnaing polarity of led
-led and resistor schematic to breadboard wiring diagram. make ur connections
-digital pin + understanding digitalwrite()
-sketch using blink and uploading -->
+### LED polarity
 
+LEDs are polarized components, which means they have designated positive and negative terminals. Polarized components must be connected in a specific direction to function correctly. If we do not connect a polarized component correctly, we risk causing damage to it. 
+
+<div class="img-center">![LED diagram](img/led-diagram.png)</div>
+<br></br>
+
+- The long leg, known as the **anode**, is the positive side of the LED. We usually connect this long leg to an Arduino digital pin or 5V.
+- The short leg, known as the **cathode**, is the negative side of the LED. We usually connect this short leg to `GND`. 
+
+Current always flows from the anode to the cathode, and never the opposite direction. 
+
+### Constructing a simple LED circuit
+
+Components required:
+- 1x LED (any color of your choice)
+- 1x 330Ω resistor
+- Breadboard
+- A handful of jumper wires
+- Your Arduino Uno
+
+admonition with two tabs one is try it yourself one is solution of making diagram breadboard from led. 
+
+### Controlling the LED using code
+
+
+  
 ## Assignment 
 
 :::info Your Turn
-1. Watch this video about circuit schematic to breadboard. Going forwards, you will be building your circuits without a wiring diagram but only using a schematic. 
+1. Going forward, we will wire components without a wiring diagram. Get familiar with reading schematics and translating them into wiring diagrams through this video.
 2. Remove all connections. Make an LED blink to morse code of your name. 
 ::: 
 
