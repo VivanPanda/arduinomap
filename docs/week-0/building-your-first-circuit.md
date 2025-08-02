@@ -2,6 +2,9 @@
 sidebar_position: 5
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Building Your First Circuit
 
 ## Understanding schematics
@@ -65,7 +68,16 @@ Components required:
 - A handful of jumper wires
 - Your Arduino Uno
 
-admonition with two tabs one is try it yourself one is solution of making diagram breadboard from led. 
+:::tip[Try it yourself]
+<Tabs>
+  <TabItem value="problem" label="Problem">
+    This is the problem
+  </TabItem>
+  <TabItem value="solution" label="Solution">
+    This is the solution
+  </TabItem>
+</Tabs>
+:::
 
 ### Controlling the LED using code
 
