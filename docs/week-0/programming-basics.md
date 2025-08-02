@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Programming Basics
 
-Our microcontroller cannot work by itself. Therefore, we need to communicate with our Arduino board using programmed instructions written in a variant of the `C++` programming language.
+Our microcontroller can't program itself. Therefore, we need to communicate with our Arduino board using programmed instructions written in a variant of the `C++` programming language.
 
 ## Writing your first sketch
 

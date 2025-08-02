@@ -4,8 +4,12 @@ sidebar_position: 4
 
 # Electrical Skills
 
+Before we learn about connecting components to our Arduino, we need to be familiar with some basic electrical engineering concepts. 
+
 ## What is a circuit?
 
+
+In electronics, a circuit is a path which allows electrical current to flow from a power source and back to the source, hence completing the loop. 
 Current, voltage, resistance
 :::tip
 Water pipe analogy
