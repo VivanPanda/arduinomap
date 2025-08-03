@@ -5,8 +5,6 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 

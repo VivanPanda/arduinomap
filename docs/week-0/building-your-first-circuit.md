@@ -68,10 +68,16 @@ Components required:
 - A handful of jumper wires
 - Your Arduino Uno
 
+<div class="img-center">![LED schematic](img/LED_blink_schem.png)</div>
+<br></br>
+
+
 :::info[Try it yourself]
 <Tabs>
   <TabItem value="problem" label="Problem">
     This is the first of many `Try It Yourself` sections you will encounter throughout this course. These are mini-assignments for you to test the knowledge you have gathered previously. Ensure you only click on the `Solution` once you've tried to solve the `Problem` yourself.
+
+    For this problem, try to construct a circuit on your breadboard using the schematic below. Refer to the [this guide](https://www.rapidtables.com/electric/electrical_symbols.html) if you're struggling to remember what a symbol represents.
   </TabItem>
   <TabItem value="solution" label="Solution">
     This is the solution
