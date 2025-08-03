@@ -1,7 +1,45 @@
 # Arduino Course
 
-This is an Arduino course. 
+A free, open-source Arduino curriculum for everyone. 
 
-<hr></hr>
+https://vivanpanda.github.io/arduino-course/
 
-Founded by [Vivan Panda](https://github.com/vivanpanda).
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+```
+Example of what is needed to install
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+```
+Give the example
+```
+
+## Built with
+
+- [Docusaurus](https://docusaurus.io/)
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* Founded by [Vivan Panda](https://github.com/vivanpanda).
+  
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+* Placeholder
