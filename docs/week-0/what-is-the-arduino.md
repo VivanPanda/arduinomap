@@ -12,7 +12,7 @@ A computer is a general purpose device that performs multiple functions whilst a
 
 ## Structure of the microcontroller
 
-If you purchased an Arduino kit as advised in the [Introduction](intro.md/hardware), grab your Arduino Uno R3 and let's understand the structure of your microcontroller. 
+If you purchased an Arduino kit as advised in the `Introduction`, grab your Arduino Uno R3 and let's understand the structure of your microcontroller. 
 
 <div class="img-center">![Arduino microcontroller structure](img/arduino-structure.png) </div>
 <br></br>
