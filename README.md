@@ -2,4 +2,6 @@
 
 This is an Arduino course. 
 
-Founded by [Vivan Panda](https://github.com/vivanpanda)
+<hr></hr>
+
+Founded by [Vivan Panda](https://github.com/vivanpanda).
