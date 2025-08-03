@@ -25,12 +25,13 @@ const config = {
   url: 'https://vivanpanda.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/arduino-course/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'VivanPanda', // Usually your GitHub org/user name.
   projectName: 'arduino-course', // Usually your repo name.
+  deploymentBranch: "gh-pages",
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
