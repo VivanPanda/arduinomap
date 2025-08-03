@@ -63,7 +63,7 @@ Current always flows from the anode to the cathode, and never the opposite direc
 
 Components required:
 - 1x LED (any color of your choice)
-- 1x 330Ω resistor
+- 1x 220Ω resistor
 - Breadboard
 - A handful of jumper wires
 - Your Arduino Uno
@@ -89,17 +89,44 @@ Components required:
 
 ### Controlling the LED using code
 
+To turn an LED on or off, we need to send a `HIGH` or `LOW` signal to our LED. We can create a simple sketch to blink our LED by sending these signals. 
 
+```cpp
+int LEDPin = 2; // Using a variable to store our digital pin
+int delayTime = 1000; // Using a variable to store our delay time
+
+void setup() {
+  pinMode(LEDPin, OUTPUT); // Set pin 8 as output
+}
+
+void loop() {
+  digitalWrite(LEDPin, HIGH);  // Turn LED on
+  delay(delayTime); // Wait 1 second
+  digitalWrite(LEDPin, LOW);   // Turn LED off
+  delay(delayTime); // Wait 1 second
+}
+```
+
+There are a few main functions in the sketch above we must understand:
+- [`pinMode()`](https://docs.arduino.cc/language-reference/en/functions/digital-io/pinMode/) - used to configure a pin as an INPUT or an OUTPUT. For example, `pinMode(5, INPUT);` would configure digital pin 5 as input.
+- [`digitalWrite()`](https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalwrite/) - used to send a HIGH or LOW signal to a digital pin. For example, `digitalWrite(4, LOW);` turns digital pin 4 off. 
+- [`delay()`](https://docs.arduino.cc/language-reference/en/functions/time/delay/) - used to pause the program for a given amount of time in milliseconds. We encountered this function earlier. 
+
+:::tip
+If you can't remember how a function works, refer to the [Arduino docs](https://docs.arduino.cc/language-reference/). Every new function we come across will be linked with the respective documentation.
+:::
+
+Write out this code for yourself, and make sure you understand how each line works. Then, upload your sketch to your Arduino board. Congratulations, you have controlled your first LED!
   
 ## Assignment 
 
 :::info Your Turn
-1. Going forward, we will wire components without a wiring diagram. Get familiar with reading schematics and translating them into wiring diagrams through this video.
-2. Remove all connections. Make an LED blink to morse code of your name. 
+1. Going forward, we will wire components without a wiring diagram. Get familiar with reading schematics and translating them into wiring diagrams through [this video](https://www.youtube.com/watch?v=qtVmq0JE-IA&list=PLKL6KBeCnI3UjXtaTqXEwtMkolIhh7YBZ).
+2. Remove all of your connections from the breadboard. Rebuild the same circuit, but use another digital pin this time. Also, try decreasing the delay time. What do you notice?
 ::: 
 
 ## Next Steps
 
 This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
 
-- 
+- [Another helpful watch on how to read a schematic.](https://www.youtube.com/watch?v=_HZ-EQ8Hc8E)
