@@ -9,7 +9,8 @@ Projects are intended to consolidate the knowledge you have absorbed in previous
 In this project, you will simulate a basic traffic light system using three LEDs: red, yellow and green. Requirements: 
 - Wire up the three LEDs correctly
 - Make the LEDs blink one after each other, cycling through red, yellow, and then green. 
-- The green LED must stay on longer than the yellow and red LED. The green LED should stay on for 3 seconds, the yellow LED should stay on for 1 second and the red LED should stay on for half a second. 
+- The green LED must stay on longer than the yellow and red LED. 
+    - The green LED should stay on for 3 seconds, the yellow LED should stay on for 1 second and the red LED should stay on for half a second. 
 
 <div class="img-center">![Traffic Light Picture](img/traffic-light.jpg)</div>
 
