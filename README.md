@@ -1,6 +1,12 @@
-# ArduinoMap
+<h1 align="center">
+  <br>
+  <a href="vivanpanda.github.io/arduinomap/"><img src="static/img/logo.png" alt="ArduinoMap" width="200"></a>
+  <br>
+  ArduinoMap
+  <br>
+</h1>
 
-A free, open-source Arduino curriculum. 
+<h4 align="center">A free, open-source Arduino curriculum.</h4>
 
 ## Getting Started
 
