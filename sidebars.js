@@ -1,4 +1,5 @@
 // @ts-check
+// to fix capitalisation
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
