@@ -1,4 +1,5 @@
-<img src="static/img/banner.png" style="width:100%; height:auto;">
+<a href="https://vivanpanda.github.io/arduinomap/"><img src="static/img/banner.png" style="width:100%; height:auto;"></a>
+
 <hr></hr>
 
 <h4 align="center">A free, open-source Arduino curriculum.</h4> 
