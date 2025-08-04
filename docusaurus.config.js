@@ -25,12 +25,12 @@ const config = {
   url: 'https://vivanpanda.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/arduino-course/',
+  baseUrl: '/arduinomap/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'VivanPanda', // Usually your GitHub org/user name.
-  projectName: 'arduino-course', // Usually your repo name.
+  projectName: 'ArduinoMap', // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -56,7 +56,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/vivanpanda/arduino-course/tree/main/',
+            'https://github.com/vivanpanda/arduinomap/tree/main/',
         },
         blog: false,
         theme: {
@@ -79,7 +79,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/vivanpanda/arduino-course',
+            href: 'https://github.com/vivanpanda/arduinomap',
             label: 'GitHub',
             position: 'right',
           },
