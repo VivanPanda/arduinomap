@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-# The Mindset
+# Functions and Scope
