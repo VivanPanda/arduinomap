@@ -1,4 +1,4 @@
-# Arduino Course
+# ArduinoMap
 
 A free, open-source Arduino curriculum. 
 
