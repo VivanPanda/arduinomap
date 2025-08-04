@@ -12,7 +12,7 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ArduinoMap',
+  title: 'arduinomap',
   tagline: 'A free, open source Arduino curriculum',
   favicon: 'img/favicon.ico',
 
@@ -25,12 +25,12 @@ const config = {
   url: 'https://vivanpanda.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ArduinoMap/',
+  baseUrl: '/arduinomap/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'VivanPanda', // Usually your GitHub org/user name.
-  projectName: 'ArduinoMap', // Usually your repo name.
+  projectName: 'arduinomap', // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
   onBrokenLinks: 'throw',
