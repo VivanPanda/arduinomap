@@ -4,12 +4,12 @@
 <h4 align="center">A free, open-source Arduino curriculum.</h4> 
 
 <p align="center">
-  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FVivanPanda%2Farduinomap"><img src="https://api.visitorbadge.io/api/visitors?  path=https%3A%2F%2Fgithub.com%2FVivanPanda%2Farduinomap&label=VISITORS&countColor=%2303aecd" /></a>
+<a href="https://visitorbadge.io/status?path=VivanPanda%2Farduinomap"><img src="https://api.visitorbadge.io/api/visitors?path=VivanPanda%2Farduinomap&countColor=%2303aecd&style=flat" /></a>
 </p>
 
 <p align="center">
   <a href="#about">About</a> •
-  <a href="#installing">Installating</a> •
+  <a href="#installing">Installing</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#authors">Authors</a> •
   <a href="#license">License</a>
