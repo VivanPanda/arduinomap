@@ -1,6 +1,6 @@
 # Arduino Course
 
-A free, open-source Arduino curriculum for everyone. 
+A free, open-source Arduino curriculum. 
 
 https://vivanpanda.github.io/arduino-course/
 
