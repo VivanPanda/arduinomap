@@ -12,7 +12,7 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'arduinomap',
+  title: 'ArduinoMap',
   tagline: 'A free, open source Arduino curriculum',
   favicon: 'img/favicon.ico',
 
