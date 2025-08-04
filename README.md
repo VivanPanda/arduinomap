@@ -1,4 +1,4 @@
-<img src="static/img/banner.png">
+<img src="static/img/banner.png" style="width:100%; height:auto;">
 <hr></hr>
 <h4 align="center">A free, open-source Arduino curriculum.</h4>
 
