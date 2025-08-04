@@ -4,7 +4,10 @@
 <h4 align="center">A free, open-source Arduino curriculum.</h4> 
 
 <p align="center">
-<a href="https://visitorbadge.io/status?path=VivanPanda%2Farduinomap"><img src="https://api.visitorbadge.io/api/visitors?path=VivanPanda%2Farduinomap&countColor=%2303aecd&style=flat" /></a>
+<a href="https://visitorbadge.io/status?path=VivanPanda%2Farduinomap"><img src="https://api.visitorbadge.io/api/visitors?path=VivanPanda%2Farduinomap&label=views&countColor=%2303aecd&style=flat"/></a>
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vivanpanda/arduinomap">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/vivanpanda/arduinomap">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/vivanpanda/arduinomap?style=flat">
 </p>
 
 <p align="center">
@@ -19,7 +22,7 @@
 
 Yet to write.
 
-## Installating
+## Installing
 
 A step by step series of examples that tell you how to get a development env running
 
