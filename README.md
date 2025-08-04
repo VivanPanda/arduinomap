@@ -1,6 +1,7 @@
 <img src="static/img/banner.png" style="width:100%; height:auto;">
 <hr></hr>
-<h4 align="center">A free, open-source Arduino curriculum.</h4>
+<h4 align="center">A free, open-source Arduino curriculum.</h4> 
+![](https://api.visitorbadge.io/api/VisitorHit?user=vivanpanda&repo=arduinomap&countColor=%237B1E7A)
 
 ## Getting Started
 
