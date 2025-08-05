@@ -1,11 +1,13 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest an improvement to ArduinoMap
 title: ''
 labels: ''
 assignees: ''
 
 ---
+
+Thank you for taking the time to make a feature request! Please fill out the necessary sections below to allow your issue to be processed quickly. 
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
