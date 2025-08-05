@@ -5,17 +5,23 @@ slug: /
 
 # Introduction
 
-When I tried learning Arduino, it was an overwhelming and daunting experience. Unfortunately, I never found a resource that taught a beginner from the basics, helping them to develop good practices. 
+**Welcome to ArduinoMap!** 
 
-The aim of this course is to provide a roadmap for the aspiring hobbyist to become familiar with the world of Arduino. By the end of the course, you will be able to play around with an assortment of modules that include sensors, actuators and displays to build cool, unique, and valuable projects. 
+ArduinoMap is a free, open source Arduino curriculum designed to help beginners build strong foundations and develop good practices from day one.  
+
+When I first tried to learn Arduino, it was an overwhelming experience. Most resources jumped ahead too fast or skipped the fundamentals. I struggled to find a clear, practical roadmap that would support beginners and aspiring hobbyists wanting to explore the world of Arduino. 
+
+ArduinoMap was built to change that.
 
 ![Arduino microcontroller](arduino-intro.jpg)
 
 ## Curriculum
 
-Each week’s module involves lessons on software (programming), followed by lessons on hardware. Rather than hand holding you through the course’s content, I will provide links to documentation, datasheets, and other useful websites for you to explore and learn. 
+The curriculum is organized into weekly modules, with each week focusing on software (programming), followed by lessons on hardware. By the end of the course, you will be able to play around with an assortment of modules which include sensors, displays and motors to build cool, unique, and valuable projects. 
 
-Each lesson will have an introduction to the topic, followed by a lesson which can be followed. Lastly, each lesson will be coupled with an assignment: a problems, challenges, and questions to apply the knowledge you have learned.
+Rather than hand holding you through the course, this course encourages **learning by doing**. You will be provided schematics, links to documentation, and other valuable resources to explore concepts in greater depth and learn. 
+
+Each lesson begins with an introduction to the topic, followed by a lesson which can be followed. Lastly, each lesson will be coupled with an assignment so that you can apply the knowledge you have gained.
 
 ## Software
 
@@ -23,7 +29,7 @@ To follow along with this course, you will need to download the Arduino IDE to p
 
 ## Hardware
 
-To really involve yourself with the lessons, and truly experience what the Arduino has to offer, I would recommend purchasing an Arduino kit which contains many of the sensors, input and output devices we will come across in this course. Some kits that are recommended include:
+To truly involve yourself with the lessons and experience what the Arduino has to offer, I would recommend purchasing an Arduino kit which contains many of the sensors, input and output devices we will come across in this course. Some kits that are recommended include:
 - [Official Arduino Start Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
 - [ELEGOO's Super Starter Kit](https://us.elegoo.com/products/elegoo-uno-r3-super-starter-kit)
 
