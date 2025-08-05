@@ -13,7 +13,6 @@
 
 <p align="center">
   <a href="#about">About</a> •
-  <a href="#installing">Installing</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#acknowledgments">Acknowledgments</a> •
   <a href="#authors">Authors</a> •
@@ -24,17 +23,9 @@
 
 Yet to write.
 
-## Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-```
-Give the example
-```
-
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONRTIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 > And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
 > - Star the project
