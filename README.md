@@ -21,7 +21,13 @@
 
 ## About
 
-Yet to write.
+Welcome to ArduinoMap!
+
+ArduinoMap is a free, open source Arduino curriculum designed to help beginners build strong foundations and develop good practices from day one.
+
+When I first tried to learn Arduino, it was an overwhelming experience. Most resources jumped ahead too fast or skipped the fundamentals. I struggled to find a clear, practical roadmap that would support beginners and aspiring hobbyists wanting to explore the world of Arduino.
+
+ArduinoMap was built to change that.
 
 ## Contributing
 
