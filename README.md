@@ -25,12 +25,12 @@ Yet to write.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the process for submitting issues and pull requests to us.
 
 > And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
 > - Star the project
-> - Refer this project in your project's readme
-> - Mention the project at local meetups and tell your friends
+> - Mention the project at local meetups
+> - Tell your friends about ArduinoMap
 
 ## Acknowledgments
 
