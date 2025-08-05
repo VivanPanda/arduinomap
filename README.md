@@ -15,6 +15,7 @@
   <a href="#about">About</a> •
   <a href="#installing">Installing</a> •
   <a href="#contributing">Contributing</a> •
+  <a href="#acknowledgments">Acknowledgments</a> •
   <a href="#authors">Authors</a> •
   <a href="#license">License</a>
 </p>
@@ -39,6 +40,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 > - Star the project
 > - Refer this project in your project's readme
 > - Mention the project at local meetups and tell your friends
+
+## Acknowledgments
+
+- Built with [Docusaurus](https://docusaurus.io/)
+- [The Odin Project Curriculum Repo](https://github.com/TheOdinProject/curriculum) for issue and PR templates.
 
 ## Authors
 
