@@ -115,4 +115,4 @@ while (blink == 1) {
 
 This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
 
-- [This article](https://ihechikara.com/posts/how-to-use-loops-in-arduino/#how-to-use-a-do-while-loop-in-arduino) covers the `do...while` looping structure as well.
+- [This article](https://ihechikara.com/posts/how-to-use-loops-in-arduino/#how-to-use-a-do-while-loop-in-arduino) covers the `do...while` looping structure.
