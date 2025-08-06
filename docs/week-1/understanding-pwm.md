@@ -32,7 +32,7 @@ A [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) is the fraction of time
 
 We can use PWM to vary the brightness of an LED by writing an **analog** value (PWM signal) to a pin. Note that not all pins are capable of supporting PWM. We have to use pins that are marked with a `~`.
 
-![PWM supported pins](img/pwm_pins.png)
+![PWM supported pins](img/pwm-pins.png)
 
 ### `analogWrite()`
 
