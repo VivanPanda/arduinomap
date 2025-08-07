@@ -111,12 +111,8 @@ Alternatively, since we've connected our color pins to pins that support PWM, we
 ## Assignment 
 
 :::info Your Turn
-1. Write a program which prompts the user to enter a color through the serial monitor. Refer back to previous lessons if you're unsure on how to do this. Accept one of these color names: `red`, `green`, `blue`, `magenta`, `cyan`, `yellow`. Use `if...else...if` statements and the `analogWrite()` function to set an RGB LED to the correct color. Try constructing your circuit again to get some practice. Use the table below to get your R, G, B values:
-
-![Color table](img/color-table.png)
-::: 
-
-2. What happens when you type in a color name like `MaGenTa`? Notice that you recieve an error, even though the spelling is correct. This is because the comparison is case-sensitive. To avoid this, we can convert the user's input to lowercase before comparing it using `if` statements. Read [this documentation](https://docs.arduino.cc/language-reference/en/variables/data-types/stringObject/Functions/toLowerCase/) and learn how to implement this on your own.
+1. Write a program to make your RGB LED cycle through different colors. Choose three colors of your choice and make each of them fade in and out slowly, one after the other. Remember to use the `delay()` function.
+:::
 
 ## Next Steps
 
