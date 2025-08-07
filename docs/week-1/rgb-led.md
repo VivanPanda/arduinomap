@@ -7,7 +7,7 @@ import TabItem from '@theme/TabItem';
 
 # The RGB LED
 
-An RGB (Red-Green-Blue) LED is is like 3 LEDs in one. We can use an RGB LED to produce a variety of colors by mixing different intensities of red, green and blue light.
+An RGB (Red-Green-Blue) LED is is like 3 LEDs in one. We can use an RGB LED to produce a variety of colors by mixing different intensities of red, green and blue light. Search up `RGB LED` online to understand what one looks like.
 
 ## How it works
 
