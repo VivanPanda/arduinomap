@@ -12,7 +12,7 @@ A potentiometer is essentially a variable resistor, which means turning the knob
 ## Constructing your circuit
 
 Components required:
-- 1x potentiometer
+- 1x Potentiometer
 - Breadboard
 - Jumper wires
 - Your Arduino Uno

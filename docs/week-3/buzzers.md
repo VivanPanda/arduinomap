@@ -18,7 +18,7 @@ Active buzzers are *active* because they require a DC voltage to produce souund.
 ### Constructing your circuit
 
 Components required:
-- Active buzzer
+- 1x Active buzzer
 - Your Arduino board
 - Breadboard
 - Jumper wires
@@ -70,7 +70,7 @@ On the other hand, passive buzzers can be useful to play musical notes and produ
 ### Constructing your circuit
 
 Components required:
-- Passive buzzer
+- 1x Passive buzzer
 - Your Arduino board
 - Breadboard
 - Jumper wires
