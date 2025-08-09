@@ -7,6 +7,8 @@ import TabItem from '@theme/TabItem';
 
 # Buzzers
 
+Buzzers are an easy and effective way to bring in sound into your Arduino projects. We must understand that there are 2 different types of buzzers: active buzzers and passive buzzers. 
+
 ## How it works
 
 ## Constructing your circuit
