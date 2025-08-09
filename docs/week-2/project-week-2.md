@@ -31,7 +31,7 @@ In this project, you will create a mood light controller using an RGB LED. Requi
 
 ![Color table](img/color-table.png)
 
-3. Upload your code, debug, and repeat until you have a working program!
+2. Upload your code, debug, and repeat until you have a working program!
 
 **Challenge**
 
