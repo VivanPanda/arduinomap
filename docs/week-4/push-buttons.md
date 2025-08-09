@@ -19,12 +19,10 @@ Components required:
 :::info[Try it yourself]
 <Tabs>
   <TabItem value="problem" label="Problem">
-    Search up your blank's datasheet online. Datasheets will be your friend when learning about new components since they provide all the necessary information you will need to construct your circuit. 
+    Search up your blank's datasheet online. Datasheets will be your friend when learning about new components since they provide all the necessary information you will need to construct your circuit. Try building your circuit using this schematic:
     
     <!-- <div class="img-center">![Blank schematic](Blank)</div>
     <br></br> -->
-
-    Try building your circuit using the schematic above.
   </TabItem>
   <TabItem value="solution" label="Solution">
     Below is the equivalent circuit diagram for this schematic. Did you hook up your components correctly?
