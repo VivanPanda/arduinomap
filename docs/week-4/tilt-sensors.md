@@ -1,15 +1,13 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Push Buttons
+# Tilt Sensors
 
 ## How it works
-
-### Pull-up / pull-down resistors
 
 ## Constructing your circuit
 

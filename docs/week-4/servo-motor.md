@@ -1,15 +1,13 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Push Buttons
+# Understanding Servo Motors
 
 ## How it works
-
-### Pull-up / pull-down resistors
 
 ## Constructing your circuit
 
@@ -34,6 +32,8 @@ Components required:
 :::
 
 ## Programming your blank
+
+### Including a library
 
 ## Assignment 
 
