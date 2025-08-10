@@ -7,6 +7,8 @@ import TabItem from '@theme/TabItem';
 
 # Arrays and Strings
 
+Arrays and strings are both programming concepts which will be handy constructs to learn about.
+
 ## Arrays
 
 An [array](https://docs.arduino.cc/language-reference/en/variables/data-types/array/) is essentially a collection of variables stored under one name. Arrays allow us to store multiple values of the same datatype without having to create a separate variable for each value. 
@@ -49,14 +51,33 @@ for (int i = 0; i < 4; i++) {
 
 ## Strings
 
+A string is simply a sequence of characters. In fact, a string is an array of **characters**. We can work with strings to store and manipulate text. 
+
+```cpp
+String myGreeting = "Hello World";
+
+char firstChar = myGreeting[0]; // 'H'
+myGreeting[6] = 'w'; // changes 'W' to 'w'
+```
+
+### String functions
+
+Strings have built-in functions to manipulate text. You can learn about many string functions [here](https://docs.arduino.cc/language-reference/en/variables/data-types/stringObject/). For instance:
+
+```cpp
+myGreeting.toUpperCase(); // converts to uppercase
+myGreeting.toLowerCase(); // converts to lowercase
+Serial.println(myGreeting.length()); // prints number of characters
+```
+
 ## Assignment 
 
 :::info Your Turn
-1. 
+1. Create an array with 5 integers. Loop through this array to work out the mean / average of these integers. Print this to the serial monitor. 
 :::
 
 ## Next Steps
 
 This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
 
-- 
+- [This is a great article to learn more about the string object.](https://www.tutorialspoint.com/arduino/arduino_string_object.htm)
