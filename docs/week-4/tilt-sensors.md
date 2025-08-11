@@ -42,6 +42,32 @@ Components required:
 
 ## Programming your tilt sensor
 
+Just like with the push button, we can use Arduino's internal pull-up resistor to keep the input `HIGH` when the sensor is not tilted. We can program our tilt sensor to read the value using `digitalRead()` as shown below:
+
+```cpp
+int tiltPin = 12;
+
+void setup() {
+  pinMode(tiltPin, INPUT_PULLUP);  // Enable internal pull-up resistor
+  Serial.begin(9600);
+}
+
+void loop() {
+  int tiltState = digitalRead(tiltPin);
+
+  if (tiltState == LOW) {
+    Serial.println("Tilt detected!");
+  } else {
+    Serial.println("No tilt");
+  }
+  delay(200);
+}
+```
+
+:::tip
+The sensor output is `LOW` when tilted because we have used a pull-up resistor. This means that the pressing connects the pin to `GND`.
+:::
+
 ## Assignment 
 
 :::info Your Turn
