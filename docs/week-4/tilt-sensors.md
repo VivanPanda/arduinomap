@@ -78,4 +78,4 @@ The sensor output is `LOW` when tilted because we have used a pull-up resistor. 
 
 This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
 
-- 
+- You can watch [this video](https://www.youtube.com/watch?v=QZWmrRkvHJk) to learn more about how tilt switches work.  
