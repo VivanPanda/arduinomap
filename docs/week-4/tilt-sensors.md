@@ -71,7 +71,7 @@ The sensor output is `LOW` when tilted because we have used a pull-up resistor. 
 ## Assignment 
 
 :::info Your Turn
-1. 
+1. Wire up a circuit that contains a tilt sensor and a buzzer of your choice. Use the Arduino's in-built pull-up resistor and program your components to sound the buzzer when the tilt sensor detects a tilt. This can be useful in a chair-tilt detection system. For instance, you can place your circuit underneath a chair (within an enclosure), and you will be warned if you tilt your chair whilst sitting. 
 :::
 
 ## Next Steps
