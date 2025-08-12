@@ -7,6 +7,8 @@ import TabItem from '@theme/TabItem';
 
 # Understanding Servo Motors
 
+A servo motor is a type of motor which can be used to introduce motion into our projects. They allow us to produce precise movements and control the position of objects.
+
 ## How it works
 
 ## Constructing your circuit
