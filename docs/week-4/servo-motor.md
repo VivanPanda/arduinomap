@@ -41,6 +41,8 @@ Components required:
 
 ## Programming your servo motor
 
+To program your servo motor, we need to learn how to include a library. 
+
 ### Including a library
 
 ## Assignment 
