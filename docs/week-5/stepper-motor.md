@@ -33,8 +33,6 @@ Components required:
 
 ## Programming your blank
 
-### Including a library
-
 ## Assignment 
 
 :::info Your Turn

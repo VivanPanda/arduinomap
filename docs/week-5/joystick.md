@@ -46,7 +46,7 @@ Components required:
 
 ## Programming your joystick
 
-### Including a library
+
 
 ## Assignment 
 
