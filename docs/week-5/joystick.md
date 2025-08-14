@@ -77,9 +77,7 @@ void loop() {
 ## Assignment 
 
 :::info Your Turn
-1. Try to create a program which controls a servo motor and an LED using a joystick. The x-axis of the joystick will control the position of the servo. The y-axis of the joystick will control the brightness of an LED - moving the joystick up or down will make the LED brighter or dimmer. Remember to use PWM for this!
-
-The joystick push button will act as a reset: when pressed, the servo will return to its neutral position and turn the LED off. 
+1. Try to create a program which controls a servo motor and an LED using a joystick. The x-axis of the joystick will control the position of the servo. The y-axis of the joystick will control the brightness of an LED - moving the joystick up or down will make the LED brighter or dimmer. Remember to use PWM for this! The joystick push button will act as a reset: when pressed, the servo will return to its neutral position and turn the LED off. 
 :::
 
 ## Next Steps
