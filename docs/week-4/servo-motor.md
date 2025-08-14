@@ -41,18 +41,71 @@ Components required:
 
 ## Programming your servo motor
 
-To program your servo motor, we need to learn how to include a library. 
+To program your servo motor to start moving, we need to learn how to include a library. To include the Servo motor library, we use:
 
-### Including a library
+```cpp
+#include <Servo.h>
+```
+
+This inclusion allows us to use the library's functions in our sketch. We can then program our servo to move using these functions:
+
+```cpp
+#include <Servo.h>
+
+Servo myServo; // Creates a servo object called myServo
+
+void setup() {
+  myServo.attach(9); // Connects servo to pin 9
+}
+
+void loop() {
+  myServo.write(90); // Moves servo to 90 degrees
+  delay(1000);       // Waits for 1 second
+  myServo.write(0);  // Moves back to 0 degrees
+}
+```
+
+:::info[Try it yourself]
+<Tabs>
+  <TabItem value="problem" label="Problem">
+    Try modifying your code to make your servo motor ***sweep***. This means, to make your servo move back and forth smoothly from 0 to 180 degrees. 
+  </TabItem>
+  <TabItem value="solution" label="Solution">
+    ```cpp
+    #include <Servo.h>
+
+    Servo myServo;
+
+    void setup() {
+      myServo.attach(9);
+    }
+
+    void loop() {
+      // Move from 0° to 180°
+      for (int pos = 0; pos <= 180; pos++) {
+        myServo.write(pos);
+        delay(15);
+      }
+
+      // Move from 180° back to 0°
+      for (int pos = 180; pos >= 0; pos--) {
+        myServo.write(pos);
+        delay(15);
+      }
+    }
+    ```
+  </TabItem>
+</Tabs>
+:::
 
 ## Assignment 
 
 :::info Your Turn
-1. 
+1. Connect a potentiometer and a servo motor to your Arduino. Use the potentiometer to control the angle of your servo motor. You can do this by *reading* the potentiometer's values and then using the `map()` function we used earlier. Feel free to take a look back at previous lessons if you've forgotten how a component works. 
 :::
 
 ## Next Steps
 
 This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
 
-- 
+- [Servo Motor Basics](https://docs.arduino.cc/learn/electronics/servo-motors/) from the Arduino Docs is a great read.
