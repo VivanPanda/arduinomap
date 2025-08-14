@@ -5,9 +5,9 @@ sidebar_position: 1
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Arrays and Strings
+# Arrays, Strings and Random Numbers
 
-Arrays and strings are both programming concepts which will be handy constructs to learn about.
+Arrays, strings and generating random numbers are all programming concepts which will be handy to learn about and implement in our projects. 
 
 ## Arrays
 
@@ -69,6 +69,37 @@ myGreeting.toUpperCase(); // converts to uppercase
 myGreeting.toLowerCase(); // converts to lowercase
 Serial.println(myGreeting.length()); // prints number of characters
 ```
+
+## Random numbers
+
+Random numbers allow us to bring variation into our projects by generating, well, *random numbers*. We can generate a random number within a given range using [`random()`](https://docs.arduino.cc/language-reference/en/functions/random-numbers/random/):
+
+```cpp
+int num = random(5, 15); // Returns 5-14
+```
+
+Unfortunately, it isn't that easy. By default, Arduino generates the same random numbers each time. To avoid this, we *seed* the generator using [`randomSeed()`](https://docs.arduino.cc/language-reference/en/functions/random-numbers/randomSeed/), making it generate a random number every time.
+
+`randomSeed()` works by specifying a floating pin in order to return a fluctuating, unpredictable value.
+
+```cpp
+randomSeed(analogRead(A0));
+```
+
+:::tip Example
+Therefore, we can write a simple program to print out a random number between 0 and 99. 
+
+```cpp
+void setup() {
+  randomSeed(analogRead(A0));  // Use floating pin A0
+}
+
+void loop() {
+  Serial.println(random(100)); // Prints a random number from 0–99
+  delay(500);
+}
+```
+:::
 
 ## Assignment 
 
