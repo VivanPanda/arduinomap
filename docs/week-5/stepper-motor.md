@@ -49,16 +49,51 @@ Components required:
 </Tabs>
 :::
 
-## Programming your blank
+## Programming your stepper motor
+
+As with the servo motor, to control and program our stepper motor, we have to interface with the Stepper library. We can include the library in our sketch using `#include <Stepper.h>` at the very top of our program.
+
+A stepper motor moves in small increments. The `28BYJ-48` motor, when used with the `ULN2003` driver, typically needs 2048 steps to complete one full rotation.
+
+```cpp
+#define STEPS_PER_REV 2048
+```
+
+Also, we have to tell the Arduino which pins are connected to the driver’s inputs. The order of the pins matters — follow the sequence exactly as wired in the circuit section. 
+
+```cpp
+Stepper myStepper(STEPS_PER_REV, 11, 9, 10, 8);
+```
+
+We can then use the `setSpeed()` and the `step()` functions to make our stepper motor rotate. The completed example sketch is as follows:
+
+```cpp
+#include <Stepper.h>
+
+#define STEPS_PER_REV 2048
+
+Stepper myStepper(STEPS_PER_REV, 11, 9, 10, 8);
+
+void setup() {
+  myStepper.setSpeed(10); // 10 RPM
+}
+
+void loop() {
+  myStepper.step(1024);  // Half rotation forward
+  delay(1000);           // Wait 1 second
+  myStepper.step(-1024); // Half rotation backward
+  delay(1000);           // Wait 1 second
+}
+```
 
 ## Assignment 
 
 :::info Your Turn
-1. 
+1. Connect a potentiometer to an analog input pin. Map the potentiometer value to a range between -2048 and 2048 steps using the `map()` function we learned about earlier. Move the stepper motor accordingly. 
 :::
 
 ## Next Steps
 
 This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
 
-- 
+- [Read this to understand why we need a motor driver.](https://orbray.com/magazine_en/archives/3659)
