@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Conditional Statements and Loops
 
 This lesson will introduce you to more programming structures which are essential to learn about.

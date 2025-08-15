@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Functions and Scope
 
 Functions are reusable blocks of code which are fundamental for making your sketches more maintainable and readable. Essentially, a function is a block of code which performs a specific task. 

@@ -2,6 +2,9 @@
 sidebar_position: 2
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Tools of the Trade
 
 There are many tools that a hobbyist should be familiar with using and are essential for the electronics workbench. Although most will not be mandatory for following this course, they are recommended to pick up to help when creating your projects in the future. 

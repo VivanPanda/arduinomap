@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # What is the Arduino?
 
 [Arduino](https://en.wikipedia.org/wiki/Arduino) is an open-source electronics company who have developed mutliple microcontrollers that allow users to create projects by connecting various sensors, actuators, and other input/output devices and programming them with a variant of the `C++` programming language. The Arduino Uno is a development board that utilizes the `ATmega328P` microcontroller from the Atmel AVR family. 

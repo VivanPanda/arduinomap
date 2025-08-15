@@ -2,6 +2,9 @@
 sidebar_position: 3
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Basic Programming 
 
 Our microcontroller can't program itself. Therefore, we need to communicate with our Arduino board using programmed instructions written in a variant of the `C++` programming language.

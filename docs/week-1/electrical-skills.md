@@ -2,6 +2,9 @@
 sidebar_position: 4
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Basic Electrical Skills
 
 Before we learn about connecting components to our Arduino, we need to be familiar with some basic electrical engineering concepts. 
