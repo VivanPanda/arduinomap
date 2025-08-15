@@ -20,33 +20,31 @@ To avoid this, we have to use a motor driver module such as the `ULN2003` driver
 Components required:
 - 1x Stepper motor eg. `28BYJ-48`
 - 1x `ULN2003` driver module
-- Jumper wires
+- 1x Power supply module
+- Breadboard
+- Jumper wires (both male-male and female-male)
 - Arduino board 
 
 :::info[Try it yourself]
 <Tabs>
   <TabItem value="problem" label="Problem">
-    Search up your servo motor's datasheet and pinout online. Then, try to build your circuit on the breadboard. You can use this pin layout to help:
+    Search up your servo motor's datasheet and pinout online. Then, try to build your circuit on the breadboard. You can use this layout to help:
 
-    - Stepper motor connections to motor driver
-        - Coil 1 (orange) → IN1
-        - Coil 2 (pink) → IN2
-        - Coil 3 (yellow) → IN3
-        - Coil 4 (blue) → IN4
-        - 5V (red) → VCC on ULN2003
+    - Connect your stepper motor to your motor driver
     - Motor driver (ULN2003) connections to Arduino
-        - IN1 → Pin 8
-        - IN2 → Pin 9
-        - IN3 → Pin 10
-        - IN4 → Pin 11
-        - VCC → Arduino 5V
-        - GND → Arduino GND
+        - IN1 → Pin 11
+        - IN2 → Pin 10
+        - IN3 → Pin 9
+        - IN4 → Pin 8
+        - VCC → Breadboard 5V rail
+        - GND → Breadboard GND rail
+    - Connect your power supply module to your breadboard, ensuring that the positive and negative terminals are in line with your breadboard's power rails. 
   </TabItem>
   <TabItem value="solution" label="Solution">
-    Below is the equivalent circuit diagram for this schematic. Did you hook up your components correctly?
+    Below is the equivalent circuit diagram for this layout. Did you hook up your components correctly?
 
-    <!-- <div class="img-center">![Blank wiring diagram](Blank)</div>
-    <br></br> -->
+    <div class="img-center">![Stepper motor wiring diagram](img/stepper-wiring.png)</div>
+    <br></br>
   </TabItem>
 </Tabs>
 :::
