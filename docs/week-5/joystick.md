@@ -27,7 +27,7 @@ Components required:
 :::info[Try it yourself]
 <Tabs>
   <TabItem value="problem" label="Problem">
-    Search up your joystick's datasheet (pinout) online. Then, try to build your circuit on the breadboard. You can use this pin layout to help:
+    Search up your joystick's datasheet and pinout online. Then, try to build your circuit on the breadboard. You can use this pin layout to help:
 
     - VCC → 5V
     - GND → GND
