@@ -7,6 +7,8 @@ import TabItem from '@theme/TabItem';
 
 # Stepper Motors
 
+Stepper motors can be used to produce motion in small *steps*. This allows us to program stepper motors to make very precise movements. Unlike servo motors, 
+
 ## How it works
 
 ## Constructing your circuit
