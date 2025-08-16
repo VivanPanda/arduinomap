@@ -30,16 +30,25 @@ Components required:
 :::info[Try it yourself]
 <Tabs>
   <TabItem value="problem" label="Problem">
-    Search up your blank's datasheet online. Datasheets will be your friend when learning about new components since they provide all the necessary information you will need to construct your circuit. Try building your circuit using this schematic:
-    
-    <!-- <div class="img-center">![Blank schematic](Blank)</div>
-    <br></br> -->
+    Search up your DC motor, motor driver and power supply module's  datasheet and pinout online. Try building your circuit using this pin layout:
+
+    - DC motor connections to L293D
+        - Motor terminal 1 → OUT1 (L293D pin 3)
+        - Motor terminal 2 → OUT2 (L293D pin 6) 
+    - L293D connections to Arduino
+        - IN1 (pin 2) → Arduino D4
+        - IN2 (pin 7) → Arduino D3
+        - EN1 (pin 1) → Arduino D5 (PWM pin for speed)
+        - GND (pins 4, 5) → Arduino GND
+        - Vs (pin 8) → + from Power Module (9V–12V)
   </TabItem>
   <TabItem value="solution" label="Solution">
-    Below is the equivalent circuit diagram for this schematic. Did you hook up your components correctly?
+    Below is the equivalent circuit diagram for this schematic. Did you hook up your components correctly? 
 
-    <!-- <div class="img-center">![Blank wiring diagram](Blank)</div>
-    <br></br> -->
+    <div class="img-center">![DC motor wiring diagram](img/dc-motor-wiring.png)</div>
+    <br></br>
+    
+    Notice we have only used  one side of the `L293D` motor driver chip. This is because the chip can control two DC motors at the same time, but we are only controlling one motoro for now. 
   </TabItem>
 </Tabs>
 :::
