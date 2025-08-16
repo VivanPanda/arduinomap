@@ -42,14 +42,51 @@ Components required:
 
 ## Programming your ultrasonic sensor
 
+To begin programming our ultrasonic sensor, we need to first include the ultrasonic sensor library.
+
+```cpp
+#include "SR04.h"  
+```
+
+Then, instead of writing out the math which will compute the distance, we can simply call a function:
+
+```cpp
+#define TRIG_PIN 12
+#define ECHO_PIN 11
+SR04 sr04 = SR04(ECHO_PIN,TRIG_PIN);
+long dist;
+```
+
+Then, we can use the `sr04` object to calculate the distance and print it out to our serial monitor. The completed example sketch, therefore, is as follows:
+
+```cpp
+#include "SR04.h"
+#define TRIG_PIN 12
+#define ECHO_PIN 11
+
+SR04 sr04 = SR04(ECHO_PIN,TRIG_PIN);
+long dist;
+
+void setup() {
+   Serial.begin(9600);
+}
+
+void loop() {
+   dist = sr04.Distance(); // Sensor gets distance
+   Serial.print(dist); // Prints distance 
+   Serial.println("cm"); 
+   delay(750);
+}
+```
+
 ## Assignment 
 
 :::info Your Turn
-1. 
+1. Create a circuit with your ultrasonic sensor and a buzzer to simulate a simple walking stick system for the visually impaired. If the distance is less than `20cm`, the buzzer will beep to warn of an obstacle. For a challenge, make the buzzer beep faster the closer you are to an object. 
 :::
 
 ## Next Steps
 
 This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
 
-- 
+- [Read this to understand more about how an ultrasonic sensor works.](https://maxbotix.com/blogs/blog/how-ultrasonic-sensors-work)
