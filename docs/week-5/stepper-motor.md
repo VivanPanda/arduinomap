@@ -20,7 +20,7 @@ To avoid this, we have to use a motor driver module such as the `ULN2003` driver
 Components required:
 - 1x Stepper motor eg. `28BYJ-48`
 - 1x `ULN2003` driver module
-- 1x Power supply module
+- 1x External power supply - we will be working with a power supply module
 - Breadboard
 - Jumper wires (both male-male and female-male)
 - Arduino board 
