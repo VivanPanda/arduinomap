@@ -54,6 +54,8 @@ Before you begin working on anything, make sure you follow these steps in order 
 
 3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with ArduinoMap's original repo. The `<repo name>` below should be the same as the one you used when creating your local clone in the previous step.
 
+4. Use `npm install` to install all packages and their associated dependencies. This will allow you to run `npm run start`.
+
 ## Working on an Issue
 
 Once you have the repo forked and cloned, and the upstream remote has been set, you can begin working on your issue:
