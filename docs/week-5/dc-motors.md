@@ -53,17 +53,95 @@ Components required:
 </Tabs>
 :::
 
-## Programming your blank
+## Programming your DC motor
 
+Now that we've wired the DC motor with the motor driver, let's write code to control it's direction and speed. 
+
+### Making our motor spin
+
+To make our DC motor spin, we have to first define some constants:
+
+```cpp
+#define ENABLE 5 // Pin 5 is connected to the L293D's EN1
+#define DIRA 3 // Controls the forward direction
+#define DIRB 4 // Controls the reverse direction
+```
+
+In our `setup()`, we then set all pins as outputs and in our `loop()` we use `digitalWrite()` to turn on our motor. The entire sketch, therefore, is as follows:
+
+```cpp
+#define ENABLE 5
+#define DIRA 3
+#define DIRB 4
+
+void setup() {
+  pinMode(ENABLE, OUTPUT);
+  pinMode(DIRA, OUTPUT);
+  pinMode(DIRB, OUTPUT);
+}
+
+void loop() {
+  // Spin forward
+  digitalWrite(ENABLE, HIGH);
+  digitalWrite(DIRA, HIGH);
+  digitalWrite(DIRB, LOW);
+  delay(2000);
+
+  // Spin backward
+  digitalWrite(DIRA, LOW);
+  digitalWrite(DIRB, HIGH);
+  delay(2000);
+
+  // Stop motor
+  digitalWrite(ENABLE, LOW);
+  delay(2000);
+}
+```
+
+### Controlling the motor's speed 
+
+Instead of just turning the motor ON/OFF, we can also use PWM using `analogWrite()` instead of `digitalWrite()` with a range of 0 to 255 to control the speed of the motor. 
+
+```cpp
+#define ENABLE 5
+#define DIRA 3
+#define DIRB 4
+
+void setup() {
+  pinMode(ENABLE, OUTPUT);
+  pinMode(DIRA, OUTPUT);
+  pinMode(DIRB, OUTPUT);
+}
+
+void loop() {
+  // Set motor direction (forward)
+  digitalWrite(DIRA, HIGH);
+  digitalWrite(DIRB, LOW);
+
+  // Ramp up speed
+  for (int speed = 0; speed <= 255; speed += 50) {
+    analogWrite(ENABLE, speed);
+    delay(1000);
+  }
+
+  // Ramp down speed
+  for (int speed = 255; speed >= 0; speed -= 50) {
+    analogWrite(ENABLE, speed);
+    delay(1000);
+  }
+
+  delay(2000);
+}
+```
 
 ## Assignment 
 
 :::info Your Turn
-1. 
+1. Connect a push button and a potentiometer to your Arduino board. Then, create a sketch which makes your motor spin forward when the button is pressed, and backward when the button is released. Use your potentiometer to vary the speed of your DC motor. Remember to use `map()`!
 :::
 
 ## Next Steps
 
 This section includes links to help you dive deeper into the topics from this lesson. It's optional, so don't worry if you choose to skip it.
 
-- 
+- [This page](https://en.wikipedia.org/wiki/H-bridge) explains what H-bridges are. 
