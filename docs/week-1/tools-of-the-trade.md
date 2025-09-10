@@ -1,11 +1,18 @@
 ---
 sidebar_position: 2
+difficulty: beginner
+time: 10m
+prereqs: ['What is the Arduino?']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # Tools of the Trade
+
+import LessonMeta from '@site/src/components/LessonMeta';
+
+<LessonMeta {...frontMatter} />
 
 There are many tools that a hobbyist should be familiar with using and are essential for the electronics workbench. Although most will not be mandatory for following this course, they are recommended to pick up to help when creating your projects in the future. 
 

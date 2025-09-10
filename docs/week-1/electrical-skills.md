@@ -1,11 +1,17 @@
 ---
 sidebar_position: 4
+difficulty: beginner
+time: 20m
+prereqs: ['Tools of the Trade']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Basic Electrical Skills
+
+<LessonMeta {...frontMatter} />
 
 Before we learn about connecting components to our Arduino, we need to be familiar with some basic electrical engineering concepts. 
 

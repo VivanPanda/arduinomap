@@ -1,8 +1,15 @@
 ---
 sidebar_position: 6
+difficulty: beginner
+time: 60m
+prereqs: ['Basic Programming', 'Building Your First Circuit']
 ---
 
 # Project: Traffic Lights
+
+import LessonMeta from '@site/src/components/LessonMeta';
+
+<LessonMeta {...frontMatter} />
 
 Projects are intended to consolidate the knowledge you have absorbed in previous lessons. This one will help you apply what you've learned about controlling LEDs. 
 

@@ -1,11 +1,17 @@
 ---
 sidebar_position: 4
+difficulty: intermediate
+time: 35m
+prereqs: ['The Serial Monitor']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Ultrasonic Sensors
+
+<LessonMeta {...frontMatter} />
 
 An ultrasonic sensor is a distance sensor which can be used to create projects that measure distance, for example, in obstacle avoiding robots. 
 

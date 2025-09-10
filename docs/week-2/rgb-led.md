@@ -1,11 +1,17 @@
 ---
 sidebar_position: 4
+difficulty: beginner
+time: 25m
+prereqs: ['Understanding PWM']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # The RGB LED
+
+<LessonMeta {...frontMatter} />
 
 An RGB (Red-Green-Blue) LED is is like 3 LEDs in one. We can use an RGB LED to produce a variety of colors by mixing different intensities of red, green and blue light. Search up `RGB LED` online to understand what one looks like.
 

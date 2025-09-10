@@ -1,11 +1,17 @@
 ---
 sidebar_position: 4
+difficulty: intermediate
+time: 35m
+prereqs: ['Understanding Servo Motors', 'Push Buttons', 'Using Potentiometers']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # DC Motors
+
+<LessonMeta {...frontMatter} />
 
 The third type of motor we will learn about is the DC motor (direct current) motor. Unlike stepper motors, which move in precise steps, or servo motors, which move to specific angles, a DC motor can spin continously when powered. 
 

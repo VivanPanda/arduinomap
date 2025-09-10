@@ -1,11 +1,17 @@
 ---
 sidebar_position: 3
+difficulty: beginner
+time: 20m
+prereqs: ['Basic Electrical Skills', 'Basic Programming']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Understanding PWM
+
+<LessonMeta {...frontMatter} />
 
 Until now, we have learnt how to turn an LED either fully on (by supplying **5V**), or off (by supplying **0V**). Pulse Width Modulation (PWM) is useful in many different applications, but for now, just remember it can be used to vary the brightness of an LED. 
 

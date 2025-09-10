@@ -1,11 +1,17 @@
 ---
 sidebar_position: 2
+difficulty: beginner
+time: 20m
+prereqs: ['Basic Electrical Skills']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Push Buttons
+
+<LessonMeta {...frontMatter} />
 
 A push button is a simple and handy component we can use to take user input into our projects. They work by completing a circuit when pressed, and opening (breaking) it when the button is released. They don’t have polarity, so they can be connected in either orientation.
 

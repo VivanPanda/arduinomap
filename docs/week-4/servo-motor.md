@@ -1,11 +1,17 @@
 ---
 sidebar_position: 4
+difficulty: beginner
+time: 30m
+prereqs: ['Using Potentiometers']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Understanding Servo Motors
+
+<LessonMeta {...frontMatter} />
 
 A servo motor is a type of motor which can be used to introduce motion into our projects. They allow us to produce precise movements and hence control the position of objects.
 

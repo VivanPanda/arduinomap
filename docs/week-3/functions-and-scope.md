@@ -1,11 +1,17 @@
 ---
 sidebar_position: 1
+difficulty: beginner
+time: 30m
+prereqs: ['Basic Programming', 'Conditional Statements and Loops']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Functions and Scope
+
+<LessonMeta {...frontMatter} />
 
 Functions are reusable blocks of code which are fundamental for making your sketches more maintainable and readable. Essentially, a function is a block of code which performs a specific task. 
 

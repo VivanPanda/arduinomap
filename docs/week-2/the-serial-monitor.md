@@ -1,11 +1,17 @@
 ---
 sidebar_position: 2
+difficulty: beginner
+time: 15m
+prereqs: ['Basic Programming']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # The Serial Monitor
+
+<LessonMeta {...frontMatter} />
 
 The serial monitor is a tool within the Arduino IDE which we can use to communicate to and from the Arduino board. The serial monitor is especially useful when debugging and testing out different components to ensure they are functioning as expected. 
 
