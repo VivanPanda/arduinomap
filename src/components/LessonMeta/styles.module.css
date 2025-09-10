@@ -1,0 +1,35 @@
+.metaRow {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 1rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  background: var(--ifm-badge-background, rgba(0,0,0,0.05));
+  color: var(--ifm-font-color-base);
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+:global([data-theme='dark']) .badge {
+  border-color: rgba(255,255,255,0.12);
+}
+
+.difficulty {
+  background: rgba(0, 151, 178, 0.12);
+}
+
+.time {
+  background: rgba(0, 200, 83, 0.12);
+}
+
+.prereqs {
+  background: rgba(255, 193, 7, 0.15);
+}
+

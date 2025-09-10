@@ -1,11 +1,18 @@
 ---
 sidebar_position: 1
+difficulty: beginner
+time: 10m
+prereqs: []
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # What is the Arduino?
+
+import LessonMeta from '@site/src/components/LessonMeta';
+
+<LessonMeta {...frontMatter} />
 
 [Arduino](https://en.wikipedia.org/wiki/Arduino) is an open-source electronics company who have developed mutliple microcontrollers that allow users to create projects by connecting various sensors, actuators, and other input/output devices and programming them with the `C++` programming language. The Arduino Uno is a development board that utilizes the `ATmega328P` microcontroller from the Atmel AVR family. 
 

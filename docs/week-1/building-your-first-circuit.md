@@ -1,11 +1,17 @@
 ---
 sidebar_position: 5
+difficulty: beginner
+time: 20m
+prereqs: ['Basic Electrical Skills']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Building Your First Circuit
+
+<LessonMeta {...frontMatter} />
 
 ## Understanding schematics
 

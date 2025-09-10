@@ -1,11 +1,17 @@
 ---
 sidebar_position: 1
+difficulty: beginner
+time: 35m
+prereqs: ['Functions and Scope']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Arrays, Strings and Random Numbers
+
+<LessonMeta {...frontMatter} />
 
 Arrays, strings and generating random numbers are all programming concepts which will be handy to learn about and implement in our projects. 
 

@@ -1,11 +1,17 @@
 ---
 sidebar_position: 5
+difficulty: intermediate
+time: 90m
+prereqs: ['DC Motors', 'Ultrasonic Sensors', 'The Joystick']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Project: Obstacle Avoiding Robot
+
+<LessonMeta {...frontMatter} />
 
 Projects are intended to consolidate the knowledge you have absorbed in previous lessons. This one will help you apply what you've learned about motors and the ultrasonic sensor. 
 

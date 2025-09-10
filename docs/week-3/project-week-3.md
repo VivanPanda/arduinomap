@@ -1,8 +1,15 @@
 ---
 sidebar_position: 5
+difficulty: beginner
+time: 60m
+prereqs: ['The LDR', 'Buzzers']
 ---
 
 # Project: Theremin
+
+import LessonMeta from '@site/src/components/LessonMeta';
+
+<LessonMeta {...frontMatter} />
 
 Projects are intended to consolidate the knowledge you have absorbed in previous lessons. This one will help you apply what you've learned about LDRs and buzzers.
 

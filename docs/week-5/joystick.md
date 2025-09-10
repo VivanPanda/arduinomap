@@ -1,11 +1,17 @@
 ---
 sidebar_position: 1
+difficulty: intermediate
+time: 30m
+prereqs: ['Using Potentiometers', 'Push Buttons']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # The Joystick
+
+<LessonMeta {...frontMatter} />
 
 A joystick module allows us to create interactive projects. Joysticks can provide input in the horizontal (x) and vertical (y) direction as well - just like a joystick on a games console. 
 

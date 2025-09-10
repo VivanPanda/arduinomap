@@ -1,11 +1,17 @@
 ---
 sidebar_position: 5
+difficulty: beginner
+time: 75m
+prereqs: ['Push Buttons', 'Arrays, Strings and Random Numbers', 'Understanding Servo Motors']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Project: Reaction Speed Game
+
+<LessonMeta {...frontMatter} />
 
 Projects are intended to consolidate the knowledge you have absorbed in previous lessons. This one will help you apply what you've learned about push buttons, servo motors and LEDs. 
 

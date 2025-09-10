@@ -1,11 +1,17 @@
 ---
 sidebar_position: 3
+difficulty: beginner
+time: 25m
+prereqs: ['Push Buttons']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Tilt Sensors
+
+<LessonMeta {...frontMatter} />
 
 Tilt sensors, or tilt switches, are simple components that detect tilt or orientation. They are simpler to use as compared to accelerometers, which makes them a quick and easy addition to our Arduino projects.
 

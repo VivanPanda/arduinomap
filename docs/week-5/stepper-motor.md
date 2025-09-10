@@ -1,11 +1,17 @@
 ---
 sidebar_position: 2
+difficulty: intermediate
+time: 45m
+prereqs: ['Understanding Servo Motors', 'Using Potentiometers']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Stepper Motors
+
+<LessonMeta {...frontMatter} />
 
 Stepper motors can be used to produce motion in small *steps*. This allows us to program stepper motors to make very precise movements and this is why stepper motors are often used in 3D printers and robotic arms.
 

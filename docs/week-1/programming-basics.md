@@ -1,11 +1,17 @@
 ---
 sidebar_position: 3
+difficulty: beginner
+time: 30m
+prereqs: ['What is the Arduino?']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Basic Programming 
+
+<LessonMeta {...frontMatter} />
 
 Our microcontroller can't program itself. Therefore, we need to communicate with our Arduino board using programmed instructions written in `C++`.
 

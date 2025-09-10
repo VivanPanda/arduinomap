@@ -1,11 +1,17 @@
 ---
 sidebar_position: 1
+difficulty: beginner
+time: 30m
+prereqs: ['Basic Programming']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Conditional Statements and Loops
+
+<LessonMeta {...frontMatter} />
 
 This lesson will introduce you to more programming structures which are essential to learn about.
 

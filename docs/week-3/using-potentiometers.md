@@ -1,11 +1,17 @@
 ---
 sidebar_position: 2
+difficulty: beginner
+time: 20m
+prereqs: ['The Serial Monitor']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # Using Potentiometers
+
+<LessonMeta {...frontMatter} />
 
 A potentiometer is essentially a variable resistor, which means turning the knob changes its resistance, allowing us to control the output voltage. Potentiometers have 3 pins: two power supply pins (5V and GND), and one pin that connects an analog input pin on your Arduino board. 
 

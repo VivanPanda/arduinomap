@@ -1,11 +1,17 @@
 ---
 sidebar_position: 4
+difficulty: beginner
+time: 25m
+prereqs: ['The Serial Monitor']
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import LessonMeta from '@site/src/components/LessonMeta';
 
 # The LDR
+
+<LessonMeta {...frontMatter} />
 
 The LDR, or photoresistor, is a light-sensitive resistor which can be used to measure light intensity and therefore build projects which detect light.
 
