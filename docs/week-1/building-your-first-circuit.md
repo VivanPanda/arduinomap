@@ -33,7 +33,7 @@ Since we will be using schematics frequently, it's essential that we understand 
 
 ### Symbols
 
-Read [this article by SparkFun Electronics](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic) to familiarse yourself with the various schematic symbols. Don't worry about memorising all of them for now; you will slowly get used to them as you encounter more circuits. 
+Read [this article by SparkFun Electronics](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic) to familiarise yourself with the various schematic symbols. Don't worry about memorising all of them for now; you will slowly get used to them as you encounter more circuits. 
 
 ### Translating a schematic to the breadboard
 
