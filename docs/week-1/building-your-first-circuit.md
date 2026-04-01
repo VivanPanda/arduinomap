@@ -102,7 +102,7 @@ int LEDPin = 2; // Using a variable to store our digital pin
 int delayTime = 1000; // Using a variable to store our delay time
 
 void setup() {
-  pinMode(LEDPin, OUTPUT); // Set pin 8 as output
+  pinMode(LEDPin, OUTPUT); // Set pin 2 as output
 }
 
 void loop() {
