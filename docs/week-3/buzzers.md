@@ -45,7 +45,6 @@ Active buzzers have a built-in oscillator circuit that automatically generates a
 - Produce a single, fixed frequency tone (cannot be changed)
 - Simple to control using `digitalWrite()` — just turn them ON or OFF
 - Great for: alarms, notifications, simple beeping alerts
-- Lower power consumption
 - Generally louder and more directional
 
 **Why use active buzzers?**
