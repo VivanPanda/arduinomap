@@ -16,6 +16,7 @@
   <a href="#contributing">Contributing</a> •
   <a href="#acknowledgments">Acknowledgments</a> •
   <a href="#authors">Authors</a> •
+  <a href="#contributors">Contributors</a> •
   <a href="#license">License</a>
 </p>
 
@@ -25,7 +26,7 @@ Welcome to ArduinoMap!
 
 ArduinoMap is a free, open source Arduino curriculum designed to help beginners build strong foundations and develop good practices from day one.
 
-When I first tried to learn Arduino, it was an overwhelming experience. Most resources jumped ahead too fast or skipped the fundamentals. I struggled to find a clear, practical roadmap that would support beginners and aspiring hobbyists wanting to explore the world of Arduino.
+When I first tried to learn Arduino, it was an overwhelming experience. Most resources jumped ahead too fast or skipped the fundamentals. I struggled to find a clear, practical roadmap that would guide me step by step without leaving me confused.
 
 ArduinoMap was built to change that.
 
@@ -45,7 +46,20 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the process for su
 
 ## Authors
 
-Founded by [Vivan Panda](https://github.com/vivanpanda). See also the list of [contributors](https://github.com/vivanpanda/arduinomap/contributors) who participated in this project.
+Founded by [Vivan Panda](https://github.com/vivanpanda).
+
+## Contributors
+
+We thank all the contributors who have helped make ArduinoMap better:
+
+- [VivanPanda](https://github.com/VivanPanda) (173 contributions)
+- [lirrnaiad](https://github.com/lirrnaiad) (3 contributions)
+- [manavcodaty](https://github.com/manavcodaty) (2 contributions)
+- [ImgBotApp](https://github.com/ImgBotApp) (1 contribution)
+- [ZahidSaeed01](https://github.com/ZahidSaeed01) (1 contribution)
+- [7sabgdeed](https://github.com/7sabgdeed) (1 contribution)
+
+See also the complete list of [contributors](https://github.com/VivanPanda/arduinomap/contributors) on GitHub.
 
 ## License
 
